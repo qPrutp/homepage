@@ -4,8 +4,10 @@
 }
 
 body {
+    font-family: 'Bitter', serif;
 	background: #424a4e;
 }
+
 
 .resume {
     position: absolute;
@@ -46,8 +48,22 @@ body {
     width: 30%;
 }
 
-.content {
+.right-block-info {
     width: 60%;
+}
+
+.left-block-info h1,
+.right-block-info h1 {
+    text-transform: uppercase;
+}
+
+.left-block-info h1 {
+    background: #ff9800ad;
+}
+
+.left-block-info-text {
+    background: #3c3b3b;
+    color: white;
 }
 
 .footer {
