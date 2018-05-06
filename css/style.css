@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Bitter', serif;
+    background: DimGrey;
+    font-size: 11pt;
+}
+
+
+.resume {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    width: 80%;
+    padding: 20px;
+    background: White;
+}
+
+.line {
+    height: 20px;
+    background: Goldenrod;
+    margin: 18px -20px -21px -20px;
+}
+
+.header h2 {
+    background: White;
+    display: inline-block;
+    margin-left: 132px;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: -26px;
+    margin-bottom: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-block-info {
+    width: 30%;
+    background: DarkSlateGrey;
+}
+
+.left-title,
+.right-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+}
+
+.left-title {
+    background: Goldenrod;
+}
+
+.right-title {
+    background: linear-gradient(to right, DarkSlateGrey 0%, DarkSlateGrey 95%, Goldenrod 5%, Goldenrod 100%);
+}
+
+.right-block-info {
+    width: 60%;
+}
+
+.left-block-info h1,
+.right-block-info h1 {
+    text-transform: uppercase;
+}
+
+.left-block-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: White;
+}
+
+.left-block-info-text,
+.right-block-info-text,
+.contact-content {
+    margin: 7px 0 7px 0;
+}
+
+.info-item,
+.soc-info-item {
+    margin: 0px 0 5px 0;
+}
+
+.info-item {
+    width: 80%;
+}
+
+.soc-info-item a img {
+    width: 100px;
+}
+
+.left-soc-info-text {
+    display: flex;
+    justify-content: space-around;
+    margin: 7px 0 7px 0;
+}
+
+.left-block-info,
+.right-block-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-block-info h1 {
+    color: White;
+}
+
+.right-block-info-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-exp-item {
+    width: 20%;
+}
+
+.timeline-item {
+    width: 80%;
+}
+
+.contact-content {
+    font-size: 10pt;
+}
+
+progress {
+    width: 100%;
+}
+
+.footer {
+    height: 34px;
+    margin: 18px -20px -20px -20px;
+    background: DarkSlateGrey;
+}
+
+@media only screen and (orientation: portrait) {
+    .header-info {
+        flex-direction: column;
+    }
+
+    .header h2 {
+        display: none;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .left-block-info {
+        margin: 0 0 12px 0;
+    }
+
+    .left-block-info,
+    .right-block-info {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (orientation: landscape) {
+
+}
