@@ -173,5 +173,7 @@ progress {
 }
 
 @media only screen and (orientation: landscape) {
-
+    .header-info img {
+        margin: -1px 0 0 0;
+    }
 }
