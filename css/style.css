@@ -5,7 +5,8 @@
 
 body {
     font-family: 'Bitter', serif;
-	background: #424a4e;
+    background: DimGrey;
+    font-size: 11pt;
 }
 
 
@@ -15,17 +16,17 @@ body {
     left: 10%;
     width: 80%;
     padding: 20px;
-    background: #fff;
+    background: White;
 }
 
 .line {
     height: 15px;
-    background: #ff9800ad;
+    background: Goldenrod;
     margin: 18px -20px -21px -20px;
 }
 
 .header h2 {
-    background: #fff;
+    background: White;
     display: inline-block;
     margin-left: 132px;
 }
@@ -46,7 +47,7 @@ body {
 
 .left-block-info {
     width: 30%;
-    background: #3c3b3b;
+    background: DarkSlateGrey;
 }
 
 .left-title,
@@ -60,11 +61,11 @@ body {
 }
 
 .left-title {
-    background: #ff9800ad;
+    background: Goldenrod;
 }
 
 .right-title {
-    background: linear-gradient(to right, #3c3b3b 0%, #3c3b3b 95%, #ff9800ad 5%, #ff9800ad 100%);
+    background: linear-gradient(to right, DarkSlateGrey 0%, DarkSlateGrey 95%, Goldenrod 5%, Goldenrod 100%);
 }
 
 .right-block-info {
@@ -81,11 +82,12 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: white;
-    margin: 7px 0 7px 0;
+    color: White;
 }
 
-.right-block-info-text {
+.left-block-info-text,
+.right-block-info-text,
+.contact-content {
     margin: 7px 0 7px 0;
 }
 
@@ -105,12 +107,29 @@ body {
 }
 
 .right-block-info h1 {
-    color: white;
+    color: White;
+}
+
+.right-block-info-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-exp-item {
+    width: 20%;
+}
+
+.experiance-item {
+    width: 80%;
+}
+
+.contact-content {
+    font-size: 10pt;
 }
 
 .footer {
     height: 34px;
     margin: 18px -20px -20px -20px;
-    background: #3c3b3b;
+    background: DarkSlateGrey;
 }
 
