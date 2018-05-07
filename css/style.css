@@ -31,6 +31,10 @@ body {
     margin-left: 132px;
 }
 
+.header h3 {
+    color: Goldenrod;
+}
+
 .header-info {
     display: flex;
     justify-content: space-around;
