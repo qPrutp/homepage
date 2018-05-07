@@ -31,6 +31,10 @@ body {
     margin-left: 132px;
 }
 
+.header h3 {
+    color: Goldenrod;
+}
+
 .header-info {
     display: flex;
     justify-content: space-around;
@@ -175,5 +179,9 @@ progress {
 @media only screen and (orientation: landscape) {
     .header-info img {
         margin: -1px 0 0 0;
+    }
+
+    .left-block-info {
+        width: 33%;
     }
 }
