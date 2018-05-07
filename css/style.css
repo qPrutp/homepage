@@ -176,4 +176,8 @@ progress {
     .header-info img {
         margin: -1px 0 0 0;
     }
+
+    .left-block-info {
+        width: 33%;
+    }
 }
